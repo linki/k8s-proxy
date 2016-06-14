@@ -16,7 +16,7 @@ how to use me:
 e.g.
 
     go run main.go \
-      -listen https://127.0.0.1:8080 \
+      -listen http://127.0.0.1:8080 \
       -target https://123.123.123.123 \
       -insecure
 
