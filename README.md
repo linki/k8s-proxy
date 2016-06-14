@@ -1,7 +1,7 @@
 # k8s-proxy
 
-this is a reverse-proxy for a kubernetes endpoint that allows
-using kubectl exec. it's supposed to be simple to so people can
+this is a proxy for a kubernetes endpoint that allows
+using kubectl exec. it's supposed to be simple so people can
 understand what's required to support kubectl exec through a proxy.
 
 mainly taken from: https://github.com/openshift/origin/blob/v1.2.0/pkg/util/httpproxy/upgradeawareproxy.go
