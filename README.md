@@ -32,7 +32,7 @@ then you target your kubectl at your local endpoint, e.g.
 
 gives you an interactive shell in your container through a go proxy
 
-important to notice here is that we run our local server with tls because
+important to notice here is that we have to run our local server with tls because
 kubectl will drop --token or --username and --password from the request
 if --server is not https://...
 
